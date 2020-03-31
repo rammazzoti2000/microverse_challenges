@@ -1,5 +1,5 @@
 # Hacker-Rack-Challenges
 
-# FizzzBuzz
-# RepeatedString
-# Anagram
+## #FizzzBuzz
+## #RepeatedString
+## #Anagram
