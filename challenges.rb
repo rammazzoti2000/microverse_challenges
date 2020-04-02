@@ -45,18 +45,36 @@ def counting(word)
 end
 
 # 4. Palindrome Index
+def palindromeIndex(str)
+  return -1 if palindrome?(str)
+
+  (str.length/2).times do |i|
+    if str[i] != str[-(i+1)]      
+      s_left = str[0...i]
+      s_right = str[i+1...str.length]
+      
+      return i if palindrome?(s_left + s_right)      
+      s_left = str[0...-(i+1)]
+      s_right = str[(str.length-i)...str.length]
+      
+      return str.length-i-1 if palindrome?(s_left + s_right)
+    end
+  end
+end
+
 
 # 5. Project Euler #2: Even Fibonacci numbers
-# Every third term of this series is even.... and the series of even terms goes like 0,2,8,34,... so any even term E(n)can be expressed as E(n)= 4*E(n-1) + E(n-2)....
+# Every third term of this series is even.... and the series of even terms goes like 0,2,8,34,... so any even term E(n) can be expressed as E(n)= 4*E(n-1) + E(n-2)....
 t = gets.strip.to_i
 for a0 in (0..t-1)
   n = gets.strip.to_i
   prev = 0
+  curr = 2
   sum = 0
-  cur = 2
-  while cur <= n
-    sum += cur
-    prev, cur = cur, prev + (4 * cur)
+
+  while curr <= n
+    sum += curr
+    prev, curr = curr, prev + (4 * curr)
   end
   p sum 
 end
