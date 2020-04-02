@@ -47,6 +47,7 @@ end
 # 4. Palindrome Index
 
 # 5. Project Euler #2: Even Fibonacci numbers
+# Every third term of this series is even.... and the series of even terms goes like 0,2,8,34,... so any even term E(n)can be expressed as E(n)= 4*E(n-1) + E(n-2)....
 t = gets.strip.to_i
 for a0 in (0..t-1)
   n = gets.strip.to_i
