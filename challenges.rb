@@ -1,4 +1,4 @@
-# FizzzBuzz
+# 1. FizzzBuzz
 100.times do |i|
   i+=1
   if i%15==0
@@ -12,7 +12,7 @@
   end
 end
 
-# RepeatedString
+# 2. RepeatedString
 def repeatedString(s, n)
     
   return n if s.size == 1 && s == 'a'
@@ -21,7 +21,7 @@ def repeatedString(s, n)
   total
 end
 
-#Anagram
+# 3. Anagram
 def anagram(s)
   s_left = s[0...s.length/2.0].split('')
   s_right = s[s.length/2.0..s.length-1].split('')
@@ -42,4 +42,20 @@ def counting(word)
   count = Hash.new(0)
   word.each_char { |char| count[char] += 1}
   return count
+end
+
+# 4. Palindrome Index
+
+# 5. Project Euler #2: Even Fibonacci numbers
+t = gets.strip.to_i
+for a0 in (0..t-1)
+  n = gets.strip.to_i
+  prev = 0
+  sum = 0
+  cur = 2
+  while cur <= n
+    sum += cur
+    prev, cur = cur, prev + (4 * cur)
+  end
+  p sum 
 end
