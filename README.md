@@ -1,5 +1,10 @@
 # Hacker-Rack-Challenges
 
-## #FizzzBuzz
-## #RepeatedString
-## #Anagram
+## Mandatory Challenges
+* ### #FizzzBuzz
+* ### #RepeatedString
+* ### #Anagram
+* ### #PalindromeIndex
+* ### #EvenFibonacciNumbers
+
+## Extra Challenges
