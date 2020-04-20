@@ -15,6 +15,7 @@ def anagram(s)
   (s_left + s_right).size / 2
 end
 
+# helper method
 def counting(word)
   count = Hash.new(0)
   word.each_char { |char| count[char] += 1}
