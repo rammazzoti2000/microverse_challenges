@@ -8,3 +8,10 @@
 * ### #EvenFibonacciNumbers
 
 ## Extra Challenges
+* ### #DrawingBook
+* ### #ElectronicsShop
+* ### #PickingNumbers
+* ### #TheHurdleRace
+* ### #AngryProfessor
+* ### #LibraryFine
+* ### #EquilizeTheArray
