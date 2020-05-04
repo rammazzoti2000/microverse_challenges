@@ -5,6 +5,9 @@
   - #### # [Lists - add & get](https://repl.it/student/submissions/11883179)
   - #### # [LinkedList - add_at & remove](https://repl.it/student/submissions/12026933)
   - #### # [Stack - push & pop](https://repl.it/student/submissions/12154565)
+  - #### # [Queue - add & remove](https://repl.it/student/submissions/12294441)
+* ### Stacks & Queues
+  - #### # [Min Stack - push & pop](https://repl.it/student/submissions/12413585)
 
 ## HackerRanck
 * ### Mandatory Challenges
@@ -22,3 +25,9 @@
   - #### # [AngryProfessor](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/angry-professor/submissions/code/1322896311)
   - #### # [LibraryFine](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/library-fine/submissions/code/1322801255)
   - #### # [EquilizeTheArray](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/equality-in-a-array/submissions/code/1322680269)
+  - #### # [Encryption](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/encryption/submissions/code/1322984144)
+  - #### # [BeautifulTriplets](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/beautiful-triplets/submissions/code/1323016462)
+  - #### # [LisaWorkbook](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/lisa-workbook/submissions/code/1323256430)
+  - #### # [HalloweenSale](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/halloween-sale/submissions/code/1323230146)
+  - #### # [BirthdayCakeCandles](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/birthday-cake-candles/submissions/code/1323169462)
+  - #### # [Staircase](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/staircase/submissions/code/1323169695)
